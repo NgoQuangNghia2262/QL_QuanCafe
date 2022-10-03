@@ -1,0 +1,11 @@
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\bin\Debug\BLL.dll
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\bin\Debug\BLL.pdb
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\bin\Debug\DAL.dll
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\bin\Debug\DTO.dll
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\bin\Debug\DAL.pdb
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\bin\Debug\DTO.pdb
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\obj\Debug\BLL.dll
+D:\BaiTapOOP\BaiTapLonWinForm\BLL\obj\Debug\BLL.pdb
