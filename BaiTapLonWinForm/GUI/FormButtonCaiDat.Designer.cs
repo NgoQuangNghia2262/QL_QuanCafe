@@ -247,6 +247,7 @@
             this.dateTimePicker2.Size = new System.Drawing.Size(125, 22);
             this.dateTimePicker2.TabIndex = 1;
             this.dateTimePicker2.Value = new System.DateTime(2022, 9, 17, 23, 59, 59, 0);
+            this.dateTimePicker2.ValueChanged += new System.EventHandler(this.dateTimePicker2_ValueChanged);
             // 
             // dtpDau
             // 
@@ -432,7 +433,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(698, 440);
+            this.button2.Location = new System.Drawing.Point(760, 445);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(80, 49);
             this.button2.TabIndex = 0;
@@ -449,7 +450,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(605, 440);
+            this.button3.Location = new System.Drawing.Point(667, 445);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(87, 49);
             this.button3.TabIndex = 0;
@@ -459,7 +460,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(502, 440);
+            this.button4.Location = new System.Drawing.Point(564, 445);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(98, 49);
             this.button4.TabIndex = 0;
@@ -794,39 +795,40 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Tài Khoản";
             this.tabPage4.UseVisualStyleBackColor = true;
+            this.tabPage4.Click += new System.EventHandler(this.tabPage4_Click);
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(861, 461);
+            this.button8.Location = new System.Drawing.Point(812, 437);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(88, 51);
+            this.button8.Size = new System.Drawing.Size(125, 73);
             this.button8.TabIndex = 4;
             this.button8.Text = "Đóng";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(861, 394);
+            this.button9.Location = new System.Drawing.Point(663, 437);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(87, 51);
+            this.button9.Size = new System.Drawing.Size(127, 73);
             this.button9.TabIndex = 5;
             this.button9.Text = "Thêm";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(861, 327);
+            this.button10.Location = new System.Drawing.Point(812, 361);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(87, 49);
+            this.button10.Size = new System.Drawing.Size(125, 70);
             this.button10.TabIndex = 6;
             this.button10.Text = "Sửa";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(741, 327);
+            this.button11.Location = new System.Drawing.Point(663, 361);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(98, 49);
+            this.button11.Size = new System.Drawing.Size(127, 70);
             this.button11.TabIndex = 7;
             this.button11.Text = "Xóa";
             this.button11.UseVisualStyleBackColor = true;

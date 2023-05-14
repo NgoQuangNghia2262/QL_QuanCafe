@@ -19,11 +19,13 @@ namespace GUI
             InitializeComponent();
             LoadTable();
         }
-        public FlowLayoutPanel Get()
+        public FormTable(int a)
         {
-            return flp;
+            InitializeComponent();
+            LoadTable2();
         }
-        void LoadTable()
+        
+        void LoadTable() // Hàm này load bàn nhưng kh có sự kiện
         {
             List<Table> list = Table_BLL.Instance.LoadTable();
             foreach (Table item in list)
@@ -39,24 +41,7 @@ namespace GUI
                 flp.Controls.Add(btn);
             }
         }
-
-        private void flp_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-       
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-        //---------------------------------------------------------------------------------------
-
-        public FormTable(int a)
-        {
-            InitializeComponent();
-            LoadTable2();
-        }
-        void LoadTable2()
+        void LoadTable2() // Hàm này tạo danh sách bàn rồi thêm sự kiện click 
         {
             List<Table> list = Table_BLL.Instance.LoadTable();
             foreach (Table item in list)
@@ -78,6 +63,20 @@ namespace GUI
                 flp.Controls.Add(btn);
             }
         }
+        private void flp_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        public FlowLayoutPanel Get()
+        {
+            return flp;
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+     
+        
 
         private void button3_Click(object sender, EventArgs e)
         {

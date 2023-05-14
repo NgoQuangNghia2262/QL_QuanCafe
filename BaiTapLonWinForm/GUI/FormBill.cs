@@ -29,6 +29,7 @@ namespace GUI
          * - danh sách đồ uống theo từng loại+sự kiện
          * 
          */
+
         void LoadCategory()
         {
             List<Food> list = Food_BLL.Instance.listfood();

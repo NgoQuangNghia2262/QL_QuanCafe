@@ -84,6 +84,7 @@ namespace GUI
             loop:;
             }
         }
+
         void LoadTable(int soTrang)
         {
             List<Table> list = Table_BLL.Instance.LoadTable();                        
@@ -235,6 +236,16 @@ namespace GUI
         }
 
         private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
         {
 
         }
